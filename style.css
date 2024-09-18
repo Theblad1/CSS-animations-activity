@@ -1,0 +1,30 @@
+#animation_div {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    animation-name: myanimationn;
+    animation-duration: 10s;
+
+}
+
+@keyframes myanimation {
+    0% {
+        background-color: bisque;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: chartreuse;
+    }
+
+    75% {
+        background-color: darkred;
+    }
+
+    100% {
+        background-color: lightskyblue;
+    }
+}
